@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-top
+{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 10px 40px 0px;
+}
+.header-mid{
+    padding: 10px;
+    background-color: azure;
+}
+.main-top{
+    background-color: aquamarine;
+    padding: 10px;
+}
+.header-search-icon{
+    width: 18px;
+}
+.header-search-icon:hover{
+    background-color: rgb(230, 227, 227);
+    
+}
+.today-link{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.today-link:hover{
+    color:gray;
+}
+.list-style > ul{
+    list-style: none;
+}
+.list-style> ul >li{
+    display: inline-block;
+}
+.list-style> ul >li> a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 5px;
+    text-transform: uppercase;
+}
+.list-style> ul >li> a:hover{
+    color: gray;
+}
+
+
