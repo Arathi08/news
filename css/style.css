@@ -22,21 +22,28 @@ body{
 }
 .header-search-icon{
     width: 18px;
+    padding:7px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .header-search-icon:hover{
-    background-color: rgb(230, 227, 227);
+    background-color:whitesmoke;
     
 }
+
 .today-link{
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+
 }
 .today-link:hover{
     color:gray;
 }
 .list-style > ul{
     list-style: none;
+    text-align: center;
 }
 .list-style> ul >li{
     display: inline-block;
@@ -47,9 +54,69 @@ body{
     display: inline-block;
     padding: 0px 5px;
     text-transform: uppercase;
+
 }
 .list-style> ul >li> a:hover{
     color: gray;
+    background-color: whitesmoke;
 }
-
-
+.headerlogo{
+    margin-top: 15px;
+    width: 480px;
+}
+.displayflex{
+    display: flex;
+}
+.direction{
+    flex-direction: column;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.header-btn{
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 7px 10px;
+}
+.header-btn:hover{
+    background-color: rgb(59, 103, 184);
+}
+.headergap{
+    margin-left: 5px;
+}
+.stock{
+    text-align: right;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.stock > span{
+    color: green;
+}
+.header-bottom{
+    border-bottom: solid 1px;
+    text-align: center;
+}
+.header-bottom > ul >li{
+    display: inline-block;
+}
+.header-bottom > ul >li >a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 15px 10px;
+     gap: 5px;
+}
+.dropdown{
+    width: 7px;
+    gap: 5px;
+}
+.header-bottom > ul > li >a:hover{
+    text-decoration: underline;
+}
